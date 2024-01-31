@@ -26,7 +26,7 @@ const greeting = {
     "A Seasoned 13 Year Old Software Developer 🚀 With A Track Record Spanning Since 2018, I Possess A Wealth Of Experience In Web Development and mobile applications."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1f40OeS0aruCJhnwtIAx7STkdpCSmpFKV/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
