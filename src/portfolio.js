@@ -107,7 +107,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Russian Culture Center",
-      logo: require("./assets/images/russianCultureLogo.png"),
+      logo: require("./assets/images/codeInLogo.png"),
       subHeader: "Kotlin Development Certification",
       duration: "March 2021 - Present",
       desc: "Gained a deep understanding of Kotlin for Android development, mastering core concepts and advanced features.",
