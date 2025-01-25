@@ -1,6 +1,6 @@
 /* Change this file to get your personal Portfolio */
 
-// To change portfolio colors globally go to the _globalColor.scss file
+// To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Rayen Michael",
-  title: "Hello, I'm Rayen 👋",
+  title: "Hey There!, I'm Rayen",
   subTitle: emoji(
-    "A Passionate Developer With Expertise In Mobile & Web Apps 🚀 – Crafting Seamless Experiences Since 2019."
+    "A Passionate Frontend Developer 🚀 With Extensive Experience In Mobile Applications Development."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1f40OeS0aruCJhnwtIAx7STkdpCSmpFKV/view?usp=sharing", // Set to empty to hide the button
@@ -38,30 +38,31 @@ const socialMediaLinks = {
   gmail: "Rayenmike2010@gmail.com",
   facebook: "https://www.facebook.com/rayen.michael.10",
   stackoverflow: "https://stackoverflow.com/users/14309397/rayen-michael?tab=profile",
-  // Instagram, Twitter, and Kaggle are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
 
 // Skills Section
 
 const skillsSection = {
-  title: "My Expertise",
-  subTitle: "Innovative, Efficient, and Always Learning.",
+  title: "My Skills",
+  subTitle: "An Enthusiast Who Loves Exploring New Technology and Creating Amazing Solutions",
   skills: [
     emoji(
-      "⚡ Building Interactive and Scalable Front-End and Back-End Solutions for Web and Mobile Applications."
+      "⚡ Expertise in Frontend / User Interfaces for both Web and Mobile Applications"
     ),
-    emoji("⚡ Progressive Web Apps (PWA) & SPA Stacks Integration."),
-    emoji("⚡ Seamlessly Integrating Third-Party Services like Firebase, REST API, and More.")
+    emoji("⚡ Building Progressive Web Applications ( PWA ) with SPA and multi-stack technologies"),
+    emoji(
+      "⚡ Integration of third-party services like Firebase, REST API, and more"
+    )
   ],
 
   softwareSkills: [
     {
-      skillName: "HTML5",
+      skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "CSS3",
+      skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
@@ -69,24 +70,32 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "ReactJS",
+      skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "Node.js",
+      skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
     },
     {
       skillName: "Kotlin",
       fontAwesomeClassname: "fas fa-code"
     },
     {
-      skillName: "Firebase",
+      skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "Android Java",
+      skillName: "Android-Java",
       fontAwesomeClassname: "fab fa-android"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "Flutter",
@@ -94,6 +103,10 @@ const skillsSection = {
     },
     {
       skillName: "Dart",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "Arduino",
       fontAwesomeClassname: "fas fa-code"
     }
   ],
@@ -106,15 +119,23 @@ const educationInfo = {
   display: false, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Russian Culture Center",
-      logo: require("./assets/images/codeInLogo.png"),
-      subHeader: "Kotlin Development Certification",
-      duration: "March 2021 - Present",
-      desc: "Gained a deep understanding of Kotlin for Android development, mastering core concepts and advanced features.",
+      schoolName: "Harvard University",
+      logo: require("./assets/images/harvardLogo.png"),
+      subHeader: "Master of Science in Computer Science",
+      duration: "September 2017 - April 2019",
+      desc: "Contributed to various groundbreaking research projects in AI and Data Science.",
       descBullets: [
-        "Developed Android apps using Kotlin and Java.",
-        "Explored Android architecture, APIs, and best practices."
+        "Published papers on Artificial Intelligence and Machine Learning",
+        "Participated in global hackathons and research competitions"
       ]
+    },
+    {
+      schoolName: "Stanford University",
+      logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "September 2013 - April 2017",
+      desc: "Gained deep knowledge in Software Engineering, Security, and Cloud Computing.",
+      descBullets: ["Graduated with honors, top 10% of the class"]
     }
   ]
 };
@@ -122,48 +143,62 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, // Set it to true to show Proficiency Section
+  viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend Development",
-      progressPercentage: "85%" // Insert relative proficiency in percentage
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend Development",
-      progressPercentage: "75%"
+      Stack: "Backend",
+      progressPercentage: "70%"
     },
     {
-      Stack: "Mobile Development",
-      progressPercentage: "80%"
+      Stack: "Programming",
+      progressPercentage: "70%"
     },
     {
       Stack: "Web Development",
-      progressPercentage: "70%"
+      progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section, defaults to false
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: false, // Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
-      company: "Tech Innovators Inc.",
-      companylogo: require("./assets/images/codeInLogo.png"),
+      company: "Facebook",
+      companylogo: require("./assets/images/facebookLogo.png"),
       date: "June 2018 – Present",
-      desc: "Developing and maintaining Android apps and scalable web applications.",
+      desc: "Lead the development of new features in Facebook's mobile app with a focus on user experience and scalability.",
       descBullets: [
-        "Leading mobile app development with Kotlin and Flutter.",
-        "Collaborating on API integration for a seamless user experience."
+        "Collaborated with cross-functional teams to improve app performance",
+        "Implemented robust solutions for large-scale applications"
       ]
+    },
+    {
+      role: "Front-End Developer",
+      company: "Quora",
+      companylogo: require("./assets/images/quoraLogo.png"),
+      date: "May 2017 – May 2018",
+      desc: "Enhanced user interface design and optimized page load time, improving overall site performance."
+    },
+    {
+      role: "Software Engineer Intern",
+      company: "Airbnb",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "Jan 2015 – Sep 2015",
+      desc: "Worked on the development of new features for the Airbnb platform with an emphasis on API integration."
     }
   ]
 };
 
-// Open Source Section to View Your Github Pinned Projects
+// Open Source Section
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
@@ -173,13 +208,13 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Highlighted Projects",
-  subtitle: "Innovative Projects That Showcase My Skills.",
+  title: "Big Projects",
+  subtitle: "PROJECTS I HAVE DEVELOPED AND PRACTICED",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Saayahealth",
-      projectDesc: "A healthcare app providing seamless access to wellness services.",
+      projectDesc: "A health tracking platform built for seamless user experience and medical management.",
       footerLink: [
         {
           name: "Visit Website",
@@ -190,7 +225,7 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Nextu",
-      projectDesc: "A platform designed to help individuals pursue their career goals.",
+      projectDesc: "A platform designed to simplify the process of job searching and recruitment.",
       footerLink: [
         {
           name: "Visit Website",
@@ -199,27 +234,27 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 
 const achievementSection = {
-  title: emoji("Achievements & Certifications 🏆 "),
+  title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Certifications, Awards, and Accomplishments That Reflect My Expertise and Dedication.",
+    "Awards, Certifications, and Cool Stuff I've Achieved!",
 
   achievementsCards: [
     {
       title: "Android Developer Certification",
       subtitle:
-        "Certified in Android Development (Kotlin/Java) by the Russian Culture Center, demonstrating proficiency in mobile app development.",
+        "Certified in Android Development Essentials, with strong expertise in Kotlin and Java for Android applications.",
       image: require("./assets/images/codeInLogo.png"),
       footerLink: [
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/13Et50uVCsWL-LriPIfN-Tng8hOPGFB92/view"
-        }
+        },
       ]
     }
   ],
@@ -229,35 +264,71 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Tech Insights",
+  title: "Blogs",
   subtitle:
-    "I love to share my learnings and experiences on software development, mobile app creation, and the tech world.",
+    "I love writing about technology and sharing knowledge with others.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt & $200 in Google Cloud Credits",
+      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
-        "Learn how to create a Google Assistant Action and win awesome rewards in under 30 minutes!"
+        "A quick guide on creating a Google Assistant Action and winning rewards!"
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why React is the Best?",
+      title: "Why REACT is The Best?",
       description:
-        "Explore why React.js is the go-to library for modern, scalable web applications."
+        "React has become one of the most popular libraries for frontend development. Here's why!"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
-// Contact Section
+// Talks Sections
+
+const talkSection = {
+  title: "TALKS",
+  subtitle: emoji(
+    "Sharing knowledge and learning from others!"
+  ),
+
+  talks: [
+    {
+      title: "Build Actions For Google Assistant",
+      subtitle: "Codelab at GDG DevFest Karachi 2019",
+      slides_url: "https://bit.ly/saadpasta-slides",
+      event_url: "https://www.facebook.com/events/2339906106275053/"
+    }
+  ],
+  display: false // Set false to hide this section, defaults to true
+};
+
+// Podcast Section
+
+const podcastSection = {
+  title: emoji("Podcast 🎙️"),
+  subtitle: "I Love Discussing Technology and My Journey!",
+
+  podcast: [
+    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+  ],
+  display: false // Set false to hide this section, defaults to true
+};
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Interested in collaborating or just want to say hello? My inbox is always open!",
+    "Interested in working together? Or just want to say hi? Reach out to me!",
   number: "+201204543684",
   email_address: "Rayenmike2010@gmail.com"
+};
+
+// Twitter Section
+
+const twitterDetails = {
+  userName: "twitter", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
@@ -275,6 +346,9 @@ export {
   bigProjects,
   achievementSection,
   blogSection,
+  talkSection,
+  podcastSection,
   contactInfo,
+  twitterDetails,
   isHireable
 };
