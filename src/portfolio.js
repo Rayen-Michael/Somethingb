@@ -91,11 +91,11 @@ const skillsSection = {
     },
     {
       skillName: "Flutter",
-      fontAwesomeClassname: "fa fa-flutter"
+      fontAwesomeClassname: "fa-brands fa-flutter"
     },
     {
       skillName: "Dart",
-      fontAwesomeClassname: "fa fa-dart-lang"
+      fontAwesomeClassname: "fa-brands fa-dart-lang"
     }
   ],
   display: true // Set false to hide this section, defaults to true
