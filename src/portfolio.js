@@ -75,7 +75,7 @@ const skillsSection = {
     },
     {
       skillName: "Kotlin",
-      fontAwesomeClassname: "fas fa-android"
+      fontAwesomeClassname: "fab fa-android"
     },
     {
       skillName: "firebase",
@@ -91,11 +91,11 @@ const skillsSection = {
     },
     {
       skillName: "Flutter",
-      fontAwesomeClassname: "fas fa-flutter"
+      fontAwesomeClassname: "fa fa-flutter"
     },
     {
       skillName: "Dart",
-      fontAwesomeClassname: "fas fa-dart-lang"
+      fontAwesomeClassname: "fa fa-dart-lang"
     }
   ],
   display: true // Set false to hide this section, defaults to true
