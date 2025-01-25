@@ -45,7 +45,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "My Skills",
-  subTitle: "An Enthusiast Who Loves Exploring New Technology and Creating Amazing Solutions",
+  subTitle: "A Lion Who Loves Exploring New Technology and Creating Amazing Solutions",
   skills: [
     emoji(
       "⚡ Expertise in Frontend / User Interfaces for both Web and Mobile Applications"
@@ -146,23 +146,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Front-end", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "30%"
     },
-    {
-      Stack: "Programming",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Web Development",
-      progressPercentage: "60%"
-    }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -246,13 +238,13 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Android Developer Certification",
+      title: "Kotlin Developer Certification",
       subtitle:
-        "Certified in Android Development Essentials, with strong expertise in Kotlin and Java for Android applications.",
+        "Certified in Kotlin for Android Development with strong expertise in Java for Android applications. Certified from Russian Culture Center",
       image: require("./assets/images/codeInLogo.png"),
       footerLink: [
         {
-          name: "Certification",
+          name: "PICTURE",
           url: "https://drive.google.com/file/d/13Et50uVCsWL-LriPIfN-Tng8hOPGFB92/view"
         },
       ]
