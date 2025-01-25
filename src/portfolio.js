@@ -152,7 +152,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Tech Innovators Inc.",
-      companylogo: require("./assets/images/techInnovatorsLogo.png"),
+      companylogo: require("./assets/images/codeInLogo.png"),
       date: "June 2018 – Present",
       desc: "Developing and maintaining Android apps and scalable web applications.",
       descBullets: [
